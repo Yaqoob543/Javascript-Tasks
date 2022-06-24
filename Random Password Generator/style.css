@@ -1,0 +1,109 @@
+body {
+    background-color: #58b3d3 !important;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 60% !important;
+    margin: 0 auto;
+    margin-top: 50px !important;
+    padding: 30px;
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 30px !important;
+    font-size: 50px !important;
+    color: #40a8c4;
+}
+
+.input {
+    background-color: wheat;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.playButton {
+    background-color: #418c9f !important;
+    width: 45% !important;
+    margin-left: 0 !important;
+    font-size: x-large !important;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.flip {
+    display: flex;
+    justify-content: center;
+}
+
+.flip img {
+    width: 280px;
+}
+
+#input {
+    width: 420px;
+    height: auto;
+    background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.2);
+    color: #7c3982;
+    text-align: center;
+    font-size: 25px;
+    padding: 0 6px;
+    margin-bottom: 20px;
+}
+
+#input::before {
+    display: none !important;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: large;
+}
+
+.back {
+    border: none;
+    background-color: white;
+}
+
+#output {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    padding: 0 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-image: url('lock.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 300px;
+}
+
+.playButton:active,
+.playButton:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
