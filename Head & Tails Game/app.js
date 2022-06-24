@@ -10,9 +10,9 @@ function game() {
 
     var final = arr[random];
     if (select === final) {
-        document.getElementById("input").innerHTML = ("Congratulations " + a + " Won !")
+        document.getElementById("input").innerHTML = ("Congratulations it's " + final + " " + a + " Won !")
 
     } else if (select != final) {
-        document.getElementById("input").innerHTML = ("Congratulations " + b + " Won !")
+        document.getElementById("input").innerHTML = ("Congratulations it's" + final + " " + b + " Won !")
     }
 }
